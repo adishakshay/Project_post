@@ -1,0 +1,155 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .incont[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(70, 28, 221);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} 
+
+.incont[type="submit"] {
+    background-color: #8861bb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.incont[type="submit"]:hover {
+    background-color: #a7198f;
+} 
+
+.containerc {
+    border-radius: 30px;
+    background-color: white;
+    padding: 40px;
+    justify-content: center;
+}
+
+
+.columnc{
+    float: right;
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 480px;
+    background-color: rgb(255, 255, 255);
+}
+
+.rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+    .columnc,
+    .incont[type="submit"] {
+        width: 100%;
+        margin-top: 0;
+    }
+}  */
+
+
+/* Contact.css */
+
+.incont[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #4B0082; /* Indigo */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5); /* More transparent */
+    backdrop-filter: blur(20px); /* Increased blur for glass effect */
+    transition: background-color 0.3s ease-in-out; /* Transition for background color */
+    z-index: 1; /* Ensure the form elements are above the background */
+}
+
+.incont[type="submit"] {
+    background-color: #4B0082; /* Indigo */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out; /* Transition for background color */
+    z-index: 1; /* Ensure the form elements are above the background */
+}
+
+.incont[type="submit"]:hover {
+    background-color: #6A5ACD; /* SlateBlue */
+}
+
+.containerc {
+    border-radius: 15px;
+    /* background-color: #F0F8FF; AliceBlue */
+    background: url('C:\Users\ADISH\Desktop\React_Projects\project\src\asserts\pexels-sohail-nachiti-807598.jpg') top right no-repeat;
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.conus {
+    /* background-color: rgba(255, 255, 255, 0.2);  More transparent 
+    padding: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(20px); Increased blur for glass effect 
+    z-index: 2; Ensure the form container is above the background */
+    background-color: #e9eaebae; /*Indigo*/
+    color: rgb(16, 15, 15);
+    text-shadow: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.columnc {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3); /* More transparent */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added position relative to enable z-index */
+    backdrop-filter: blur(20px); /* Increased blur for glass effect */
+}
+
+.con {
+    background-color: rgba(255, 255, 255, 0.6); /* More transparent */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Slight shadow effect */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transitions for background color and box shadow */
+}
+
+.con:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* More transparent on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Slightly increased shadow on hover */
+}
+
+.rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1000px){
+    .columnc,
+    .incont[type="submit"] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
